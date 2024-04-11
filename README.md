@@ -1,5 +1,5 @@
 # Predictive Analytics for an Airline
-Project to predict which airplanes will unexpectedly require maintenance.
+Project to predict which airplanes will interrupt its operation unexpectedly in the next 7 days.
 
 You should execute the main.py. From this you will be able to select your desired pipeline.
 Also you need to select the number of cores in your computer. If it's doing other work apart 
