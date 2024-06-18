@@ -49,8 +49,8 @@ def obtain_DW_data (spark, aircraftid, date):
         df_aircraftutilization = spark.read.format("jdbc")\
             .option("url", "jdbc:postgresql://postgresfib.fib.upc.edu:6433/DW?sslmode=require")\
             .option("dbtable", "aircraftutilization") \
-            .option("user", "armand.de.asis") \
-            .option("password", "DB250202") \
+            .option("user", "USEREXAMPLE") \
+            .option("password", "passwordexemple") \
             .option("driver", "org.postgresql.Driver") \
             .load()
     except:
